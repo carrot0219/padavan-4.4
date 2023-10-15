@@ -23,6 +23,7 @@ jobs:
         include:
           - build_variant: "mt7621"
             targets: "JDCLOUD-RE-SP-01B"
+            
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
